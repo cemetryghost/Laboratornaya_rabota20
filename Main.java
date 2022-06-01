@@ -1,13 +1,13 @@
 package com.company;
 
 interface HighestVoltageConnection {
-    public void Charge();
-    public void HighCharge();
+    void Charge();
+    void HighCharge();
 }
 
 interface LowVoltageConnection {
-    public void Charge();
-    public void LowCharge();
+    void Charge();
+    void LowCharge();
 }
 
 class HighVoltage implements HighestVoltageConnection {
